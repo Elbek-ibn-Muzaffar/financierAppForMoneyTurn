@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
-@FeignClient("https://Consumer-app")
+@FeignClient("Consumer-app")
 public interface ConsumerServiceContract {
 
     @GetMapping("/api/v2/consumerApp/getAllCosts")
