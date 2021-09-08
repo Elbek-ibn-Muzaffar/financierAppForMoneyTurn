@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
-@FeignClient("https://financier-app-for-money-turn.herokuapp.com")
+@FeignClient("https://consumer-app-for-money-turn.herokuapp.com")
 public interface ConsumerServiceContract {
 
     @GetMapping("/api/v2/consumerApp/getAllCosts")
