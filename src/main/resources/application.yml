@@ -4,9 +4,9 @@ spring:
   application:
     name: financier-app
   datasource:
-    url: jdbc:postgresql://ec2-44-193-228-249.compute-1.amazonaws.com:5432/d2fi4bula7befv
-    username: fuyrsqxatrpwkp
-    password: aea94a926c313f4c38cb64bb5afa619feab529948a8534f9d575aa6c7b2e278e
+    url: jdbc:postgresql://ec2-18-214-238-28.compute-1.amazonaws.com:5432/d5r6njfc2ebg97
+    username: imtsmvppttiytq
+    password: 56a4a1b67ca21eef335958edce8cff2ef8612d56193f50247a376ac9b9309319
 
   jpa:
     properties:
